@@ -20,7 +20,9 @@
         "gabordemooij/redbean": "^4.2",
         "2amigos/yiiwheels": "^2.0",
         "twig/twig": "~1.0",
-        "yiiext/twig-renderer":"1.1.*"
+        "yiiext/twig-renderer":"1.1.*",
+        "yiisoft/yii": "^1.1",
+        "nicolopignatelli/valueobjects": "^3.0"
     },
     "license": "BSD",
     "authors": [
