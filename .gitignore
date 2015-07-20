@@ -151,3 +151,7 @@ protected/runtime/*
 protected/data/*.db
 themes/classic/views/
 
+### Sass ###
+.sass-cache
+*.css.map
+
