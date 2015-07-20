@@ -3,6 +3,7 @@
 // change the following paths if necessary
 $yii=dirname(__FILE__).'/protected/vendor/yiisoft/yii/framework/yii.php';
 $config=dirname(__FILE__).'/protected/config/main.php';
+$composer = dirname(__FILE__) . '/protected/vendor/autoload.php';
 
 // remove the following lines when in production mode
 defined('YII_DEBUG') or define('YII_DEBUG',true);
@@ -17,4 +18,9 @@ if(YII_DEBUG) {
 
 
 require_once($yii);
+
+$composerAutoloader=require_once($composer);
+
+Yii::registerAutoloader(array($composerAutoloader,'loadClass'),true);
+
 Yii::createWebApplication($config)->run();
