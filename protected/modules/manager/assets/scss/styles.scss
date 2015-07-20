@@ -1,0 +1,22 @@
+// Import Bootstrap Compass integration
+@import "bootstrap-compass";
+
+// Import custom Bootstrap variables
+@import "bootstrap-variables";
+
+// Import Bootstrap for Sass
+@import "bootstrap";
+
+#wrapper {
+	position:relative;
+}
+
+.app-content {
+	position:relative;
+}
+
+@media(min-width:$screen-sm-min) {
+	.sidebar {
+		position:fixed;
+	}
+}

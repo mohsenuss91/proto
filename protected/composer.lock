@@ -1,0 +1,281 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "7ba8c076bf1bb712c4a85903f22d8cef",
+    "packages": [
+        {
+            "name": "2amigos/yiiwheels",
+            "version": "2.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2amigos/yiiwheels.git",
+                "reference": "1e9ab513e2694149dcca13f196ea1d2be4264346"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/2amigos/yiiwheels/zipball/1e9ab513e2694149dcca13f196ea1d2be4264346",
+                "reference": "1e9ab513e2694149dcca13f196ea1d2be4264346",
+                "shasum": ""
+            },
+            "require": {
+                "crisu83/yiistrap": "dev-bs3"
+            },
+            "require-dev": {
+                "php": ">=5.3.0",
+                "yiisoft/yii": ">=1.1.13"
+            },
+            "type": "yii-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Antonio Ramirez",
+                    "email": "ramirez.cobos@gmail.com",
+                    "homepage": "http://www.ramirezcobos.com/"
+                }
+            ],
+            "description": "Extension library for Yiistrap, Yii Twitter's Bootstrap.",
+            "keywords": [
+                "bootstrap",
+                "yii"
+            ],
+            "time": "2014-09-08 09:45:36"
+        },
+        {
+            "name": "crisu83/yiistrap",
+            "version": "dev-bs3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/crisu83/yiistrap.git",
+                "reference": "94dfec5b642edc7f9bb50ffbabb476707f86e6ab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/crisu83/yiistrap/zipball/94dfec5b642edc7f9bb50ffbabb476707f86e6ab",
+                "reference": "94dfec5b642edc7f9bb50ffbabb476707f86e6ab",
+                "shasum": ""
+            },
+            "require": {
+                "twbs/bootstrap": ">=3.1.1"
+            },
+            "require-dev": {
+                "apigen/apigen": "~4.0",
+                "codeception/codeception": "@stable",
+                "crisu83/yii-composer": ">=1.0.0",
+                "yiisoft/yii": ">=1.1.13"
+            },
+            "type": "library",
+            "extra": {
+                "yii-install-writable": [
+                    "tests/_log"
+                ]
+            },
+            "autoload": {
+                "classmap": [
+                    "behaviors/",
+                    "components/",
+                    "form/",
+                    "helpers/",
+                    "widgets/",
+                    "gii/bootstrap/BootstrapCode.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Christoffer Niska",
+                    "email": "christoffer.niska@gmail.com",
+                    "homepage": "http://www.cniska.net/"
+                },
+                {
+                    "name": "Antonio Ramirez",
+                    "email": "ramirez.cobos@gmail.com",
+                    "homepage": "http://www.ramirezcobos.com/"
+                }
+            ],
+            "description": "Twitter Bootstrap for the Yii PHP framework.",
+            "keywords": [
+                "bootstrap",
+                "yii"
+            ],
+            "time": "2015-02-27 14:48:18"
+        },
+        {
+            "name": "gabordemooij/redbean",
+            "version": "v4.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gabordemooij/redbean.git",
+                "reference": "13610146620d7c0a66215dcaf0c8796bb03a04aa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gabordemooij/redbean/zipball/13610146620d7c0a66215dcaf0c8796bb03a04aa",
+                "reference": "13610146620d7c0a66215dcaf0c8796bb03a04aa",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RedBeanPHP\\": "RedBeanPHP"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "New BSD and GPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "Gabor de Mooij",
+                    "email": "gabor@redbeanphp.com",
+                    "homepage": "http://redbeanphp.com"
+                }
+            ],
+            "description": "RedBeanPHP ORM",
+            "homepage": "http://redbeanphp.com/",
+            "keywords": [
+                "orm"
+            ],
+            "time": "2015-05-09 12:22:47"
+        },
+        {
+            "name": "twbs/bootstrap",
+            "version": "v3.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "16b48259a62f576e52c903c476bd42b90ab22482"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/16b48259a62f576e52c903c476bd42b90ab22482",
+                "reference": "16b48259a62f576e52c903c476bd42b90ab22482",
+                "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                },
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "http://getbootstrap.com",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "less",
+                "mobile-first",
+                "responsive",
+                "web"
+            ],
+            "time": "2015-06-16 16:13:22"
+        },
+        {
+            "name": "twig/twig",
+            "version": "v1.18.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "e8e6575abf6102af53ec283f7f14b89e304fa602"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/e8e6575abf6102af53ec283f7f14b89e304fa602",
+                "reference": "e8e6575abf6102af53ec283f7f14b89e304fa602",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.18-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Twig_": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Armin Ronacher",
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
+                },
+                {
+                    "name": "Twig Team",
+                    "homepage": "http://twig.sensiolabs.org/contributors",
+                    "role": "Contributors"
+                }
+            ],
+            "description": "Twig, the flexible, fast, and secure template language for PHP",
+            "homepage": "http://twig.sensiolabs.org",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2015-06-06 23:31:24"
+        },
+        {
+            "name": "yiiext/twig-renderer",
+            "version": "1.1.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiiext/twig-renderer",
+                "reference": "v1.1.15"
+            },
+            "type": "library"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "crisu83/yiistrap": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
